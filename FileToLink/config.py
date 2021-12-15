@@ -26,7 +26,11 @@ class Config:
 
 
 class Strings:
-    start = Config.Start_Message
+    start = """⭐️ Hola , Envíame cualquier archivo para obtener el enlace de descarga directa
+
+⁉️ Enviar /help para obtener más información
+
+💬 Enviar /lang para cambiar el idioma del bot"""
     dl_link = "🔗 Download LINK"
     st_link = "🎞 Stream LINK"
     generating_link = "**⏳ Generating Link...**"
