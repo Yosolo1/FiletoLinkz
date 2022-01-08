@@ -18,7 +18,7 @@ class Worker:
         if msg.empty:
             raise ValueError
         self.msg = msg
-        self.archive_id = msg.message_id
+        self.archive_id = self.media.file_name
         self.media = (msg.video or msg.document or msg.photo or msg.audio or
                       msg.voice or msg.video_note or msg.sticker or msg.animation)
         self.size = self.media.file_size
