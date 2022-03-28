@@ -25,8 +25,8 @@ class Config:
     Part_size = 10 * 1024 * 1024  # (10MB) For Pyrogram
     Buffer_Size = 512 * 1024  # For Quart
     Pre_Dl = 3  # How many parts to download from telegram before client request them
-    Separate_Time = 60  # (seconds)  wait time between messages if user send more than one
-    Sleep_Threshold = 120  # (Seconds) sleep threshold for flood wait exceptions
+    Separate_Time = 4  # (seconds)  wait time between messages if user send more than one
+    Sleep_Threshold = 60  # (Seconds) sleep threshold for flood wait exceptions
     Max_Fast_Processes = 1  # How many links user can update them to fast links at the same time
 
 
