@@ -60,7 +60,7 @@ class Worker:
         self.parts = [False for _ in
                       range(int(self.size / Config.Part_size) + (1 if self.size % Config.Part_size else 0))]
         self.done = False  # If All parts are downloaded
-        self.fast = True  # If User update to Fast Link
+        self.fast = False  # If User update to Fast Link
         AllWorkers.add(self)
 
     async def create_file(self):
