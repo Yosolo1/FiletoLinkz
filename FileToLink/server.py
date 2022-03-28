@@ -59,7 +59,7 @@ app.response_class.file_body_class = FileBody
 
 @app.route('/')
 async def root():
-    return redirect(f"{Config.Link_Root}/index.php")
+    return redirect(f"https://t.me/{Config.Bot_UserName}")
 
 
 @app.route('/dl/<int:archive_id>/<name>')
