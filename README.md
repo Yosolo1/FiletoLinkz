@@ -9,6 +9,10 @@
 
 ## Deploy the Bot
 
+### Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yosolo1/FiletoLinkz)
+
+
 Press the below button to deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ElJoker63/FileToLink)
